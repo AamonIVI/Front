@@ -1,0 +1,38 @@
+/* CategoryPage.css */
+
+.category-page {
+    text-align: center;
+    width:1500px;
+    margin: 0 auto;
+    justify-content: start;
+    background-color: rgb(251, 251, 251);
+    position: relative;
+  }
+  
+  .category-page .categories {
+    justify-content: top;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+  }
+  
+  .category-page .categories li {
+    top: -10px;
+    padding: 15px;
+    background-color: #ffffff;
+    color: rgb(1, 1, 1);
+    text-decoration:solid;
+    border-radius: 5px;
+    text-align: left;
+    font-family: "Gilroy-Light", Helvetica;
+    font-size: 40px;
+  }
+  
+  .category-page .categories li:hover {
+    background-color: #61d5ff;
+  }
+  
